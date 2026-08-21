@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Wed Aug 19 22:59:23 2026" VIVADOVERSION="2020.1">
+
+  <SYSTEMINFO ARCH="zynq" BOARD="digilentinc.com:zybo-z7-10:part0:1.2" DEVICE="7z010" NAME="block_design_1" PACKAGE="clg400" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="O" LEFT="3" NAME="y_0" RIGHT="0" SIGIS="undef" SIGNAME="ALU_0_y">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ALU_0" PORT="y"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="3" NAME="sw_0" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_sw_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="SM_0" PORT="sw"/>
+        <CONNECTION INSTANCE="ALU_0" PORT="sws"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="nxt_0" SIGIS="undef" SIGNAME="External_Ports_nxt_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="SM_0" PORT="nxt"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk_0" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="SM_0" PORT="clk"/>
+        <CONNECTION INSTANCE="RAM_0" PORT="clk"/>
+        <CONNECTION INSTANCE="ALU_0" PORT="clk"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE COREREVISION="1" FULLNAME="/ALU_0" HWVERSION="1.0" INSTANCE="ALU_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="ALU" VLNV="xilinx.com:user:ALU:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="block_design_1_ALU_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="a" RIGHT="0" SIGIS="undef" SIGNAME="RAM_0_data_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="RAM_0" PORT="data_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="b" RIGHT="0" SIGIS="undef" SIGNAME="SM_0_b">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="SM_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="instr" RIGHT="0" SIGIS="undef" SIGNAME="SM_0_instr">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="SM_0" PORT="instr"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="ledEn" SIGIS="undef" SIGNAME="SM_0_ledEn">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="SM_0" PORT="ledEn"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="sws" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_sw_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="sw_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="y" RIGHT="0" SIGIS="undef" SIGNAME="ALU_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="y_0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/RAM_0" HWVERSION="1.0" INSTANCE="RAM_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="RAM" VLNV="xilinx.com:user:RAM:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="block_design_1_RAM_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="3" NAME="address" RIGHT="0" SIGIS="undef" SIGNAME="SM_0_addr">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="SM_0" PORT="addr"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="1" NAME="data_in" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="O" LEFT="3" NAME="data_out" RIGHT="0" SIGIS="undef" SIGNAME="RAM_0_data_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/SM_0" HWVERSION="1.0" INSTANCE="SM_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="SM" VLNV="xilinx.com:user:SM:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="block_design_1_SM_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="3" NAME="sw" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_sw_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="sw_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="nxt" SIGIS="undef" SIGNAME="External_Ports_nxt_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="nxt_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="addr" RIGHT="0" SIGIS="undef" SIGNAME="SM_0_addr">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="RAM_0" PORT="address"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="b" RIGHT="0" SIGIS="undef" SIGNAME="SM_0_b">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="instr" RIGHT="0" SIGIS="undef" SIGNAME="SM_0_instr">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_0" PORT="instr"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="ledEn" SIGIS="undef" SIGNAME="SM_0_ledEn">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_0" PORT="ledEn"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Aug 20 21:57:39 2026
+# Process ID: 16844
+# Current directory: D:/Sep_martin_pena/bloques_creados/StateMachine/tmp_edit_project.runs/synth_1
+# Command line: vivado.exe -log SM.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source SM.tcl
+# Log file: D:/Sep_martin_pena/bloques_creados/StateMachine/tmp_edit_project.runs/synth_1/SM.vds
+# Journal file: D:/Sep_martin_pena/bloques_creados/StateMachine/tmp_edit_project.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source SM.tcl -notrace

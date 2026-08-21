@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Aug 20 22:35:35 2026
+# Process ID: 1368
+# Current directory: D:/Sep_martin_pena/Ayudantia_2_Todo_Junto/Ayudantia_2_Todo_Junto.runs/impl_1
+# Command line: vivado.exe -log block_design_ayu_2_full_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source block_design_ayu_2_full_wrapper.tcl -notrace
+# Log file: D:/Sep_martin_pena/Ayudantia_2_Todo_Junto/Ayudantia_2_Todo_Junto.runs/impl_1/block_design_ayu_2_full_wrapper.vdi
+# Journal file: D:/Sep_martin_pena/Ayudantia_2_Todo_Junto/Ayudantia_2_Todo_Junto.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source block_design_ayu_2_full_wrapper.tcl -notrace

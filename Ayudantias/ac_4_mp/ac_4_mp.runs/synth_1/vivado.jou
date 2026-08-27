@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Aug 24 09:07:54 2026
+# Process ID: 18648
+# Current directory: D:/Sep_martin_pena/ac_4_mp/ac_4_mp.runs/synth_1
+# Command line: vivado.exe -log ac4_reloj.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ac4_reloj.tcl
+# Log file: D:/Sep_martin_pena/ac_4_mp/ac_4_mp.runs/synth_1/ac4_reloj.vds
+# Journal file: D:/Sep_martin_pena/ac_4_mp/ac_4_mp.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source ac4_reloj.tcl -notrace

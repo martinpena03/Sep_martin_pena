@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/crist/Desktop/SEP/AYUDANTIA/control_unit/control_unit.srcs/sources_1/new/control_unit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'control_unit'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/crist/Desktop/SEP/AYUDANTIA/control_unit/control_unit.srcs/sim_1/new/control_unit_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'control_unit_tb'

@@ -1,0 +1,58 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat Aug 26 17:23:36 2023
+# Process ID: 1200
+# Current directory: C:/Users/crist/Desktop/SEP/AYUDANTIA/RAM2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12036 C:\Users\crist\Desktop\SEP\AYUDANTIA\RAM2\RAM2.xpr
+# Log file: C:/Users/crist/Desktop/SEP/AYUDANTIA/RAM2/vivado.log
+# Journal file: C:/Users/crist/Desktop/SEP/AYUDANTIA/RAM2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/crist/Desktop/SEP/AYUDANTIA/RAM2/RAM2.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/csier/OneDrive/Escritorio/Ay_2023_2/IPcores_morr/RAM2' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/../users/csier/onedrive/escritorio/ay_2023_2/ay3/ram2/ram2.srcs/component.xml', nor could it be found using path 'C:/users/csier/onedrive/escritorio/ay_2023_2/ay3/ram2/ram2.srcs/component.xml'.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'C:/../users/csier/onedrive/escritorio/ay_2023_2/ay3/ram2/ram2.srcs', nor could it be found using path 'C:/users/csier/onedrive/escritorio/ay_2023_2/ay3/ram2/ram2.srcs'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:users/csier/onedrive/escritorio/ay_2023_2/ay3/ram2/ram2.srcs'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 1061.738 ; gain = 0.000
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/../users/csier/onedrive/escritorio/ay_2023_2/ay3/ram2/ram2.srcs/component.xml] -no_script -reset -force -quiet
+remove_files  C:/../users/csier/onedrive/escritorio/ay_2023_2/ay3/ram2/ram2.srcs/component.xml
+ipx::package_project -root_dir c:/users/crist/desktop/sep/ayudantia/ram2/ram2.srcs -vendor xilinx.com -library user -taxonomy /UserIP
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+set_property  ip_repo_paths  {c:/users/crist/desktop/sep/ayudantia/ram2/ram2.srcs c:users/csier/onedrive/escritorio/ay_2023_2/ay3/ram2/ram2.srcs} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/crist/desktop/sep/ayudantia/ram2/ram2.srcs'.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/crist/Desktop/SEP/AYUDANTIA/RAM2/users/csier/onedrive/escritorio/ay_2023_2/ay3/ram2/ram2.srcs'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+ipx::package_project -root_dir c:/users/crist/desktop/sep/ayudantia/ram2/ram2.srcs -vendor xilinx.com -library user -taxonomy /UserIP -force
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/users/crist/desktop/sep/ayudantia/ram2/ram2.srcs
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/users/crist/desktop/sep/ayudantia/ram2/ram2.srcs'
+ipx::merge_project_changes ports [ipx::current_core]
+WARNING: [IP_Flow 19-5226] Project source file 'c:/users/crist/desktop/sep/ayudantia/ram2/ram2.srcs/component.xml' ignored by IP packager.
+set_property core_revision 3 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/users/crist/desktop/sep/ayudantia/ram2/ram2.srcs
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/users/crist/desktop/sep/ayudantia/ram2/ram2.srcs'
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Aug 26 18:18:10 2023...

@@ -1,0 +1,59 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Wed Aug 30 01:33:59 2023
+| Host         : LAPTOP-G0T5FON4 running 64-bit major release  (build 9200)
+| Command      : report_drc -file design_1_wrapper_drc_routed.rpt -pb design_1_wrapper_drc_routed.pb -rpx design_1_wrapper_drc_routed.rpx
+| Design       : design_1_wrapper
+| Device       : xc7z010clg400-1
+| Speed File   : -1
+| Design State : Fully Routed
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 3
++-------------+----------+-------------------------------------------------------------+------------+
+| Rule        | Severity | Description                                                 | Violations |
++-------------+----------+-------------------------------------------------------------+------------+
+| PDRC-153    | Warning  | Gated clock check                                           | 1          |
+| PLHOLDVIO-2 | Warning  | Non-Optimal connections which could lead to hold violations | 1          |
+| ZPS7-1      | Warning  | PS7 block required                                          | 1          |
++-------------+----------+-------------------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+PDRC-153#1 Warning
+Gated clock check  
+Net design_1_i/Debouncing_Button_VH_0/U0/Debouncing_FF1/debounced_button is a gated clock net sourced by a combinational pin design_1_i/Debouncing_Button_VH_0/U0/Debouncing_FF1/debounced_button_INST_0/O, cell design_1_i/Debouncing_Button_VH_0/U0/Debouncing_FF1/debounced_button_INST_0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PLHOLDVIO-2#1 Warning
+Non-Optimal connections which could lead to hold violations  
+A LUT design_1_i/Debouncing_Button_VH_0/U0/Debouncing_FF1/debounced_button_INST_0 is driving clock pin of 11 cells. This could lead to large hold time violations. Involved cells are:
+design_1_i/SM_0/U0/addr_reg[0], design_1_i/SM_0/U0/addr_reg[1],
+design_1_i/SM_0/U0/addr_reg[2], design_1_i/SM_0/U0/addr_reg[3],
+design_1_i/SM_0/U0/b_reg[0], design_1_i/SM_0/U0/b_reg[1],
+design_1_i/SM_0/U0/b_reg[2], design_1_i/SM_0/U0/b_reg[3],
+design_1_i/SM_0/U0/enable_reg, design_1_i/SM_0/U0/state_reg[0],
+design_1_i/SM_0/U0/state_reg[1]
+Related violations: <none>
+
+ZPS7-1#1 Warning
+PS7 block required  
+The PS7 cell must be used in this Zynq design in order to enable correct default configuration.
+Related violations: <none>
+
+

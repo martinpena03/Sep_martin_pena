@@ -1,0 +1,36 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-143,-91",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port clk -pg 1 -lvl 0 -x -10 -y 60 -defaultsOSRD
+preplace port btn -pg 1 -lvl 0 -x -10 -y 220 -defaultsOSRD
+preplace portBus leds -pg 1 -lvl 5 -x 990 -y 250 -defaultsOSRD
+preplace portBus sw -pg 1 -lvl 0 -x -10 -y 300 -defaultsOSRD
+preplace inst prog_mem_0 -pg 1 -lvl 2 -x 390 -y 70 -defaultsOSRD
+preplace inst instr_mem_0 -pg 1 -lvl 3 -x 630 -y 70 -defaultsOSRD
+preplace inst control_unit_0 -pg 1 -lvl 1 -x 150 -y 70 -defaultsOSRD
+preplace inst RAM2_0 -pg 1 -lvl 3 -x 630 -y 220 -defaultsOSRD
+preplace inst SM_0 -pg 1 -lvl 2 -x 390 -y 280 -defaultsOSRD
+preplace inst Debouncing_Button_VH_0 -pg 1 -lvl 1 -x 150 -y 230 -defaultsOSRD
+preplace inst ALU_0 -pg 1 -lvl 4 -x 870 -y 240 -defaultsOSRD
+preplace netloc RAM2_0_data_out 1 3 1 N 220
+preplace netloc prog_mem_0_address 1 2 1 NJ 70
+preplace netloc instr_mem_0_data_out 1 3 1 770 70n
+preplace netloc control_unit_0_pc 1 1 1 NJ 70
+preplace netloc ALU_0_finish 1 0 5 30 140 NJ 140 NJ 140 NJ 140 960
+preplace netloc clk_0_1 1 0 4 20 300 270 200 490J 290 750
+preplace netloc ALU_0_y 1 4 1 N 250
+preplace netloc sw_0_1 1 0 2 10J 310 280J
+preplace netloc SM_0_addr 1 2 1 500J 220n
+preplace netloc SM_0_b 1 2 2 NJ 280 760
+preplace netloc SM_0_enable 1 2 2 NJ 300 770
+preplace netloc btn_1 1 0 1 NJ 220
+preplace netloc Debouncing_Button_VH_0_debounced_button 1 1 1 280 230n
+levelinfo -pg 1 -10 150 390 630 870 990
+pagesize -pg 1 -db -bbox -sgen -110 0 1100 360
+"
+}
+0

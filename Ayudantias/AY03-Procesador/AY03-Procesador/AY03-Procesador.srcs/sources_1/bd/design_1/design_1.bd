@@ -1,0 +1,176 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x3E87B752DC56FCEA",
+      "device": "xc7z010clg400-1",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2020.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "prog_mem_0": "",
+      "instr_mem_0": "",
+      "control_unit_0": "",
+      "RAM2_0": "",
+      "SM_0": "",
+      "Debouncing_Button_VH_0": "",
+      "ALU_0": ""
+    },
+    "ports": {
+      "clk": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "design_1_clk_0",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.000",
+            "value_src": "default"
+          }
+        }
+      },
+      "leds": {
+        "direction": "O",
+        "left": "3",
+        "right": "0"
+      },
+      "btn": {
+        "direction": "I"
+      },
+      "sw": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      }
+    },
+    "components": {
+      "prog_mem_0": {
+        "vlnv": "xilinx.com:user:prog_mem:1.0",
+        "xci_name": "design_1_prog_mem_0_0"
+      },
+      "instr_mem_0": {
+        "vlnv": "xilinx.com:user:instr_mem:1.0",
+        "xci_name": "design_1_instr_mem_0_0"
+      },
+      "control_unit_0": {
+        "vlnv": "xilinx.com:user:control_unit:1.0",
+        "xci_name": "design_1_control_unit_0_0"
+      },
+      "RAM2_0": {
+        "vlnv": "xilinx.com:user:RAM2:1.0",
+        "xci_name": "design_1_RAM2_0_0"
+      },
+      "SM_0": {
+        "vlnv": "xilinx.com:user:SM:1.0",
+        "xci_name": "design_1_SM_0_0"
+      },
+      "Debouncing_Button_VH_0": {
+        "vlnv": "xilinx.com:user:Debouncing_Button_VHDL:1.0",
+        "xci_name": "design_1_Debouncing_Button_VH_0_0"
+      },
+      "ALU_0": {
+        "vlnv": "xilinx.com:user:ALU:1.0",
+        "xci_name": "design_1_ALU_0_0"
+      }
+    },
+    "nets": {
+      "RAM2_0_data_out": {
+        "ports": [
+          "RAM2_0/data_out",
+          "ALU_0/a"
+        ]
+      },
+      "prog_mem_0_address": {
+        "ports": [
+          "prog_mem_0/address",
+          "instr_mem_0/address"
+        ]
+      },
+      "instr_mem_0_data_out": {
+        "ports": [
+          "instr_mem_0/data_out",
+          "ALU_0/instr"
+        ]
+      },
+      "control_unit_0_pc": {
+        "ports": [
+          "control_unit_0/pc",
+          "prog_mem_0/PC"
+        ]
+      },
+      "ALU_0_finish": {
+        "ports": [
+          "ALU_0/finish",
+          "control_unit_0/alu_flag"
+        ]
+      },
+      "clk_0_1": {
+        "ports": [
+          "clk",
+          "control_unit_0/clk",
+          "SM_0/clk",
+          "Debouncing_Button_VH_0/clk",
+          "ALU_0/clk"
+        ]
+      },
+      "ALU_0_y": {
+        "ports": [
+          "ALU_0/y",
+          "leds"
+        ]
+      },
+      "sw_0_1": {
+        "ports": [
+          "sw",
+          "SM_0/sw"
+        ]
+      },
+      "SM_0_addr": {
+        "ports": [
+          "SM_0/addr",
+          "RAM2_0/address"
+        ]
+      },
+      "SM_0_b": {
+        "ports": [
+          "SM_0/b",
+          "ALU_0/b"
+        ]
+      },
+      "SM_0_enable": {
+        "ports": [
+          "SM_0/enable",
+          "ALU_0/enable"
+        ]
+      },
+      "btn_1": {
+        "ports": [
+          "btn",
+          "Debouncing_Button_VH_0/button"
+        ]
+      },
+      "Debouncing_Button_VH_0_debounced_button": {
+        "ports": [
+          "Debouncing_Button_VH_0/debounced_button",
+          "SM_0/nxt"
+        ]
+      }
+    }
+  }
+}

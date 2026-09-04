@@ -1,0 +1,18 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../AY3_wrapper.ip_user_files/bd/design_1/ipshared/4dbd/sources_1/new/ALU.vhd" \
+"../../../../AY3_wrapper.ip_user_files/bd/design_1/ip/design_1_ALU_0_0/sim/design_1_ALU_0_0.vhd" \
+"../../../../AY3_wrapper.ip_user_files/bd/design_1/ipshared/cfa6/sources_1/new/RAM2.vhd" \
+"../../../../AY3_wrapper.ip_user_files/bd/design_1/ip/design_1_RAM2_0_0/sim/design_1_RAM2_0_0.vhd" \
+"../../../../AY3_wrapper.ip_user_files/bd/design_1/ipshared/d19e/sources_1/new/prog_mem.vhd" \
+"../../../../AY3_wrapper.ip_user_files/bd/design_1/ip/design_1_prog_mem_0_0/sim/design_1_prog_mem_0_0.vhd" \
+"../../../../AY3_wrapper.ip_user_files/bd/design_1/ipshared/78d6/sources_1/new/instr_mem.vhd" \
+"../../../../AY3_wrapper.ip_user_files/bd/design_1/ip/design_1_instr_mem_0_0/sim/design_1_instr_mem_0_0.vhd" \
+"../../../../AY3_wrapper.ip_user_files/bd/design_1/ipshared/0a9b/sources_1/new/control_unit.vhd" \
+"../../../../AY3_wrapper.ip_user_files/bd/design_1/ip/design_1_control_unit_0_0/sim/design_1_control_unit_0_0.vhd" \
+"../../../../AY3_wrapper.ip_user_files/bd/design_1/sim/design_1.vhd" \
+"../../../../AY3_wrapper.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd" \
+"../../../../AY3_wrapper.srcs/sim_1/new/design_1_wrapper_tb.vhd" \
+
+# Do not sort compile order
+nosort

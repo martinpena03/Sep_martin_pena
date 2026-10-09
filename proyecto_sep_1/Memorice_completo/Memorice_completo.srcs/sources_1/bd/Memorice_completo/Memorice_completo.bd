@@ -1,0 +1,388 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x1AB961796868DEB3",
+      "device": "xc7z010clg400-1",
+      "name": "Memorice_completo",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2020.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "ila_0": "",
+      "vio_0": "",
+      "or_btn": "",
+      "or_reset": "",
+      "RAM_sin_axi_0": "",
+      "slice_btn0": "",
+      "SM_0": "",
+      "debouncer_0": "",
+      "debouncer_reset": "",
+      "Sequence_display_0": "",
+      "rgb_driver_sin_axi_0": "",
+      "Player_game_manager_0": ""
+    },
+    "ports": {
+      "btn": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      },
+      "clk": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "Memorice_completo_clk",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.000",
+            "value_src": "default"
+          }
+        }
+      },
+      "led": {
+        "direction": "O",
+        "left": "3",
+        "right": "0"
+      },
+      "led_rgb": {
+        "direction": "O",
+        "left": "2",
+        "right": "0"
+      },
+      "sw": {
+        "direction": "I",
+        "left": "3",
+        "right": "3"
+      }
+    },
+    "components": {
+      "ila_0": {
+        "vlnv": "xilinx.com:ip:ila:6.2",
+        "xci_name": "Memorice_completo_ila_0_0",
+        "parameters": {
+          "C_ENABLE_ILA_AXI_MON": {
+            "value": "false"
+          },
+          "C_MONITOR_TYPE": {
+            "value": "Native"
+          },
+          "C_NUM_OF_PROBES": {
+            "value": "13"
+          },
+          "C_PROBE0_WIDTH": {
+            "value": "32"
+          },
+          "C_PROBE10_WIDTH": {
+            "value": "1"
+          },
+          "C_PROBE11_WIDTH": {
+            "value": "1"
+          },
+          "C_PROBE12_WIDTH": {
+            "value": "1"
+          },
+          "C_PROBE1_WIDTH": {
+            "value": "4"
+          },
+          "C_PROBE2_WIDTH": {
+            "value": "2"
+          },
+          "C_PROBE3_WIDTH": {
+            "value": "4"
+          },
+          "C_PROBE4_WIDTH": {
+            "value": "2"
+          },
+          "C_PROBE5_WIDTH": {
+            "value": "1"
+          },
+          "C_PROBE6_WIDTH": {
+            "value": "4"
+          },
+          "C_PROBE7_WIDTH": {
+            "value": "3"
+          },
+          "C_PROBE8_WIDTH": {
+            "value": "1"
+          },
+          "C_PROBE9_WIDTH": {
+            "value": "4"
+          }
+        }
+      },
+      "vio_0": {
+        "vlnv": "xilinx.com:ip:vio:3.0",
+        "xci_name": "Memorice_completo_vio_0_0",
+        "parameters": {
+          "C_NUM_PROBE_IN": {
+            "value": "2"
+          },
+          "C_NUM_PROBE_OUT": {
+            "value": "2"
+          },
+          "C_PROBE_OUT0_INIT_VAL": {
+            "value": "0x0"
+          },
+          "C_PROBE_OUT0_WIDTH": {
+            "value": "4"
+          },
+          "C_PROBE_OUT1_INIT_VAL": {
+            "value": "0x0"
+          },
+          "C_PROBE_OUT1_WIDTH": {
+            "value": "1"
+          }
+        }
+      },
+      "or_btn": {
+        "vlnv": "xilinx.com:ip:util_vector_logic:2.0",
+        "xci_name": "Memorice_completo_or_btn_0",
+        "parameters": {
+          "C_OPERATION": {
+            "value": "or"
+          },
+          "C_SIZE": {
+            "value": "4"
+          }
+        }
+      },
+      "or_reset": {
+        "vlnv": "xilinx.com:ip:util_vector_logic:2.0",
+        "xci_name": "Memorice_completo_or_reset_0",
+        "parameters": {
+          "C_OPERATION": {
+            "value": "or"
+          },
+          "C_SIZE": {
+            "value": "1"
+          }
+        }
+      },
+      "RAM_sin_axi_0": {
+        "vlnv": "xilinx.com:user:RAM_sin_axi:1.0",
+        "xci_name": "Memorice_completo_RAM_sin_axi_0_0"
+      },
+      "slice_btn0": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "Memorice_completo_slice_btn0_0",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "0"
+          },
+          "DIN_TO": {
+            "value": "0"
+          },
+          "DIN_WIDTH": {
+            "value": "4"
+          },
+          "DOUT_WIDTH": {
+            "value": "1"
+          }
+        }
+      },
+      "SM_0": {
+        "vlnv": "xilinx.com:user:SM:1.1",
+        "xci_name": "Memorice_completo_SM_0_0"
+      },
+      "debouncer_0": {
+        "vlnv": "xilinx.com:user:debouncer:1.0",
+        "xci_name": "Memorice_completo_debouncer_0_0"
+      },
+      "debouncer_reset": {
+        "vlnv": "xilinx.com:user:debouncer:1.0",
+        "xci_name": "Memorice_completo_debouncer_reset_0",
+        "parameters": {
+          "WIDTH": {
+            "value": "1"
+          }
+        }
+      },
+      "Sequence_display_0": {
+        "vlnv": "xilinx.com:user:Sequence_display:1.0",
+        "xci_name": "Memorice_completo_Sequence_display_0_0"
+      },
+      "rgb_driver_sin_axi_0": {
+        "vlnv": "xilinx.com:user:rgb_driver_sin_axi:1.0",
+        "xci_name": "Memorice_completo_rgb_driver_sin_axi_0_0"
+      },
+      "Player_game_manager_0": {
+        "vlnv": "xilinx.com:user:Player_game_manager:1.0",
+        "xci_name": "Memorice_completo_Player_game_manager_0_0"
+      }
+    },
+    "nets": {
+      "SM_0_n_de_turno": {
+        "ports": [
+          "SM_0/n_de_turno",
+          "ila_0/probe1",
+          "vio_0/probe_in1",
+          "Sequence_display_0/n_de_turno",
+          "rgb_driver_sin_axi_0/n_de_turno",
+          "Player_game_manager_0/n_de_turno"
+        ]
+      },
+      "debouncer_0_result": {
+        "ports": [
+          "debouncer_0/result",
+          "ila_0/probe3",
+          "slice_btn0/Din",
+          "Player_game_manager_0/btn"
+        ]
+      },
+      "clk_0_1": {
+        "ports": [
+          "clk",
+          "ila_0/clk",
+          "vio_0/clk",
+          "RAM_sin_axi_0/clk",
+          "SM_0/clk",
+          "debouncer_0/clk",
+          "debouncer_reset/clk",
+          "Sequence_display_0/clk",
+          "rgb_driver_sin_axi_0/clk",
+          "Player_game_manager_0/clk"
+        ]
+      },
+      "Sequence_display_0_leds": {
+        "ports": [
+          "Sequence_display_0/leds",
+          "led",
+          "ila_0/probe6"
+        ]
+      },
+      "Player_game_manager_0_resultado_turno": {
+        "ports": [
+          "Player_game_manager_0/resultado_turno",
+          "ila_0/probe4",
+          "SM_0/resultado_turno",
+          "rgb_driver_sin_axi_0/resultado_turno"
+        ]
+      },
+      "Sequence_display_0_finish": {
+        "ports": [
+          "Sequence_display_0/finish",
+          "ila_0/probe5",
+          "SM_0/display_finish"
+        ]
+      },
+      "SM_0_start_signal": {
+        "ports": [
+          "SM_0/start_signal",
+          "ila_0/probe12",
+          "Sequence_display_0/start_signal",
+          "Player_game_manager_0/start_signal"
+        ]
+      },
+      "SM_0_estado_actual": {
+        "ports": [
+          "SM_0/estado_actual",
+          "ila_0/probe2",
+          "vio_0/probe_in0",
+          "rgb_driver_sin_axi_0/estado_actual"
+        ]
+      },
+      "rgb_driver_sin_axi_0_end_win_sequence": {
+        "ports": [
+          "rgb_driver_sin_axi_0/end_win_sequence",
+          "ila_0/probe10",
+          "SM_0/end_win_sequence"
+        ]
+      },
+      "rgb_driver_sin_axi_0_end_game_over_sequence": {
+        "ports": [
+          "rgb_driver_sin_axi_0/end_game_over_sequence",
+          "ila_0/probe11",
+          "SM_0/end_game_over_sequence"
+        ]
+      },
+      "RAM_sin_axi_0_reset_enabler": {
+        "ports": [
+          "RAM_sin_axi_0/reset_enabler",
+          "debouncer_0/reset_n",
+          "debouncer_reset/reset_n"
+        ]
+      },
+      "RAM_sin_axi_0_sequence": {
+        "ports": [
+          "RAM_sin_axi_0/sequence",
+          "ila_0/probe0",
+          "Sequence_display_0/sequence",
+          "Player_game_manager_0/sequence"
+        ]
+      },
+      "rgb_driver_led_rgb": {
+        "ports": [
+          "rgb_driver_sin_axi_0/led_rgb",
+          "led_rgb",
+          "ila_0/probe7"
+        ]
+      },
+      "btn_fisico": {
+        "ports": [
+          "btn",
+          "or_btn/Op1"
+        ]
+      },
+      "btn_virtual": {
+        "ports": [
+          "vio_0/probe_out0",
+          "or_btn/Op2"
+        ]
+      },
+      "btn_combinado": {
+        "ports": [
+          "or_btn/Res",
+          "ila_0/probe9",
+          "debouncer_0/button"
+        ]
+      },
+      "sw3_fisico": {
+        "ports": [
+          "sw",
+          "or_reset/Op1"
+        ]
+      },
+      "reset_virtual": {
+        "ports": [
+          "vio_0/probe_out1",
+          "or_reset/Op2"
+        ]
+      },
+      "reset_combinado": {
+        "ports": [
+          "or_reset/Res",
+          "debouncer_reset/button"
+        ]
+      },
+      "reset_limpio": {
+        "ports": [
+          "debouncer_reset/result",
+          "ila_0/probe8",
+          "SM_0/reset"
+        ]
+      },
+      "btn0_accion": {
+        "ports": [
+          "slice_btn0/Dout",
+          "SM_0/btn"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,153 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Wed Sep 16 18:13:48 2026
+| Host         : martin running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Memorice_completo_Sequence_display_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Memorice_completo_Sequence_display_0_0 (xilinx.com:user:Sequence_display:1.0) from (Rev. 2) to (Rev. 3)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Wed Sep 16 18:13:48 2026
+| Host         : martin running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Memorice_completo_RAM_sin_axi_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Memorice_completo_RAM_sin_axi_0_0 (xilinx.com:user:RAM_sin_axi:1.0) from (Rev. 9) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Wed Sep 16 18:02:25 2026
+| Host         : martin running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Memorice_completo_Sequence_display_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of Memorice_completo_Sequence_display_0_0 (xilinx.com:user:Sequence_display:1.0 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Wed Sep 16 18:02:25 2026
+| Host         : martin running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Memorice_completo_RAM_sin_axi_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of Memorice_completo_RAM_sin_axi_0_0 (xilinx.com:user:RAM_sin_axi:1.0 (Rev. 9)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Wed Sep 16 17:45:27 2026
+| Host         : martin running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Memorice_completo_RAM_sin_axi_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Memorice_completo_RAM_sin_axi_0_0 (xilinx.com:user:RAM_sin_axi:1.0) from (Rev. 7) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Wed Sep 16 17:30:14 2026
+| Host         : martin running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Memorice_completo_SM_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of Memorice_completo_SM_0_0 (xilinx.com:user:SM:1.1) from (Rev. 4) to (Rev. 5)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'Memorice_completo_SM_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'end_win_sequence'
+
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Wed Sep 16 17:16:24 2026
+| Host         : martin running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Memorice_completo_SM_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of Memorice_completo_SM_0_0 (xilinx.com:user:SM:1.1 (Rev. 4)) to Vivado generation flows.
+

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="Memorice_completo_Player_game_manager_0_0_synth_1" LaunchDir="D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.runs/Memorice_completo_Player_game_manager_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Memorice_completo_Sequence_display_0_0_synth_1" LaunchDir="D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.runs/Memorice_completo_Sequence_display_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Memorice_completo_debouncer_0_0_synth_1" LaunchDir="D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.runs/Memorice_completo_debouncer_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Memorice_completo_SM_0_0_synth_1" LaunchDir="D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.runs/Memorice_completo_SM_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Memorice_completo_RAM_sin_axi_0_0_synth_1" LaunchDir="D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.runs/Memorice_completo_RAM_sin_axi_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

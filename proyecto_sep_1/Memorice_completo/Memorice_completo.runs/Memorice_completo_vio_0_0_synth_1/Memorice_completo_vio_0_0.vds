@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Sep 22 14:13:35 2026
+# Process ID: 5900
+# Current directory: D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.runs/Memorice_completo_vio_0_0_synth_1
+# Command line: vivado.exe -log Memorice_completo_vio_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Memorice_completo_vio_0_0.tcl
+# Log file: D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.runs/Memorice_completo_vio_0_0_synth_1/Memorice_completo_vio_0_0.vds
+# Journal file: D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.runs/Memorice_completo_vio_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source Memorice_completo_vio_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 1060.754 ; gain = 0.000
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Sep_martin_pena/proyecto_sep_1'.
+WARNING: [IP_Flow 19-3656] If you move the project, the path for repository 'd:/Sep_martin_pena/proyecto_sep_1' may become invalid. A better location for the repository would be in a path adjacent to the project. (Current project location is 'd:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.runs/Memorice_completo_vio_0_0_synth_1'.)
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2020.1/data/ip'.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP Memorice_completo_vio_0_0, cache-ID = b6c08f1c0597ad55.
+INFO: [Common 17-206] Exiting Vivado at Tue Sep 22 14:14:15 2026...

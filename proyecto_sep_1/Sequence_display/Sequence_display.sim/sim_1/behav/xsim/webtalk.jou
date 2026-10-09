@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Sep 16 12:59:17 2026
+# Process ID: 22356
+# Current directory: D:/Sep_martin_pena/proyecto_sep_1/Sequence_display/Sequence_display.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source D:/Sep_martin_pena/proyecto_sep_1/Sequence_display/Sequence_display.sim/sim_1/behav/xsim/xsim.dir/tb_Sequence_display_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/Sep_martin_pena/proyecto_sep_1/Sequence_display/Sequence_display.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: D:/Sep_martin_pena/proyecto_sep_1/Sequence_display/Sequence_display.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source D:/Sep_martin_pena/proyecto_sep_1/Sequence_display/Sequence_display.sim/sim_1/behav/xsim/xsim.dir/tb_Sequence_display_behav/webtalk/xsim_webtalk.tcl -notrace

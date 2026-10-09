@@ -1,0 +1,297 @@
+
+*** Running vivado
+    with args -log Memorice_completo_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Memorice_completo_wrapper.tcl
+
+
+
+****** Vivado v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source Memorice_completo_wrapper.tcl -notrace
+create_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1060.902 ; gain = 0.000
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Sep_martin_pena/proyecto_sep_1'.
+WARNING: [IP_Flow 19-3656] If you move the project, the path for repository 'd:/Sep_martin_pena/proyecto_sep_1' may become invalid. A better location for the repository would be in a path adjacent to the project. (Current project location is 'd:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.runs/synth_1'.)
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2020.1/data/ip'.
+add_files: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1060.902 ; gain = 0.000
+Command: synth_design -top Memorice_completo_wrapper -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 13248
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1095.844 ; gain = 34.941
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Memorice_completo_wrapper' [D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.srcs/sources_1/bd/Memorice_completo/hdl/Memorice_completo_wrapper.vhd:24]
+INFO: [Synth 8-3491] module 'Memorice_completo' declared at 'D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.srcs/sources_1/bd/Memorice_completo/synth/Memorice_completo.vhd:14' bound to instance 'Memorice_completo_i' of component 'Memorice_completo' [D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.srcs/sources_1/bd/Memorice_completo/hdl/Memorice_completo_wrapper.vhd:35]
+INFO: [Synth 8-638] synthesizing module 'Memorice_completo' [D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.srcs/sources_1/bd/Memorice_completo/synth/Memorice_completo.vhd:28]
+INFO: [Synth 8-3491] module 'Memorice_completo_Player_game_manager_0_0' declared at 'D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.runs/synth_1/.Xil/Vivado-14904-martin/realtime/Memorice_completo_Player_game_manager_0_0_stub.vhdl:5' bound to instance 'Player_game_manager_0' of component 'Memorice_completo_Player_game_manager_0_0' [D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.srcs/sources_1/bd/Memorice_completo/synth/Memorice_completo.vhd:175]
+INFO: [Synth 8-638] synthesizing module 'Memorice_completo_Player_game_manager_0_0' [D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.runs/synth_1/.Xil/Vivado-14904-martin/realtime/Memorice_completo_Player_game_manager_0_0_stub.vhdl:17]
+INFO: [Synth 8-3491] module 'Memorice_completo_RAM_sin_axi_0_0' declared at 'D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.runs/synth_1/.Xil/Vivado-14904-martin/realtime/Memorice_completo_RAM_sin_axi_0_0_stub.vhdl:5' bound to instance 'RAM_sin_axi_0' of component 'Memorice_completo_RAM_sin_axi_0_0' [D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.srcs/sources_1/bd/Memorice_completo/synth/Memorice_completo.vhd:184]
+INFO: [Synth 8-638] synthesizing module 'Memorice_completo_RAM_sin_axi_0_0' [D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.runs/synth_1/.Xil/Vivado-14904-martin/realtime/Memorice_completo_RAM_sin_axi_0_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'Memorice_completo_SM_0_0' declared at 'D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.runs/synth_1/.Xil/Vivado-14904-martin/realtime/Memorice_completo_SM_0_0_stub.vhdl:5' bound to instance 'SM_0' of component 'Memorice_completo_SM_0_0' [D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.srcs/sources_1/bd/Memorice_completo/synth/Memorice_completo.vhd:190]
+INFO: [Synth 8-638] synthesizing module 'Memorice_completo_SM_0_0' [D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.runs/synth_1/.Xil/Vivado-14904-martin/realtime/Memorice_completo_SM_0_0_stub.vhdl:21]
+INFO: [Synth 8-3491] module 'Memorice_completo_Sequence_display_0_0' declared at 'D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.runs/synth_1/.Xil/Vivado-14904-martin/realtime/Memorice_completo_Sequence_display_0_0_stub.vhdl:5' bound to instance 'Sequence_display_0' of component 'Memorice_completo_Sequence_display_0_0' [D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.srcs/sources_1/bd/Memorice_completo/synth/Memorice_completo.vhd:203]
+INFO: [Synth 8-638] synthesizing module 'Memorice_completo_Sequence_display_0_0' [D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.runs/synth_1/.Xil/Vivado-14904-martin/realtime/Memorice_completo_Sequence_display_0_0_stub.vhdl:17]
+INFO: [Synth 8-3491] module 'Memorice_completo_debouncer_0_0' declared at 'D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.runs/synth_1/.Xil/Vivado-14904-martin/realtime/Memorice_completo_debouncer_0_0_stub.vhdl:5' bound to instance 'debouncer_0' of component 'Memorice_completo_debouncer_0_0' [D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.srcs/sources_1/bd/Memorice_completo/synth/Memorice_completo.vhd:212]
+INFO: [Synth 8-638] synthesizing module 'Memorice_completo_debouncer_0_0' [D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.runs/synth_1/.Xil/Vivado-14904-martin/realtime/Memorice_completo_debouncer_0_0_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'Memorice_completo_debouncer_reset_0' declared at 'D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.runs/synth_1/.Xil/Vivado-14904-martin/realtime/Memorice_completo_debouncer_reset_0_stub.vhdl:5' bound to instance 'debouncer_reset' of component 'Memorice_completo_debouncer_reset_0' [D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.srcs/sources_1/bd/Memorice_completo/synth/Memorice_completo.vhd:219]
+INFO: [Synth 8-638] synthesizing module 'Memorice_completo_debouncer_reset_0' [D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.runs/synth_1/.Xil/Vivado-14904-martin/realtime/Memorice_completo_debouncer_reset_0_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'Memorice_completo_ila_0_0' declared at 'D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.runs/synth_1/.Xil/Vivado-14904-martin/realtime/Memorice_completo_ila_0_0_stub.vhdl:5' bound to instance 'ila_0' of component 'Memorice_completo_ila_0_0' [D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.srcs/sources_1/bd/Memorice_completo/synth/Memorice_completo.vhd:226]
+INFO: [Synth 8-638] synthesizing module 'Memorice_completo_ila_0_0' [D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.runs/synth_1/.Xil/Vivado-14904-martin/realtime/Memorice_completo_ila_0_0_stub.vhdl:25]
+INFO: [Synth 8-3491] module 'Memorice_completo_or_btn_0' declared at 'D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.runs/synth_1/.Xil/Vivado-14904-martin/realtime/Memorice_completo_or_btn_0_stub.vhdl:5' bound to instance 'or_btn' of component 'Memorice_completo_or_btn_0' [D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.srcs/sources_1/bd/Memorice_completo/synth/Memorice_completo.vhd:243]
+INFO: [Synth 8-638] synthesizing module 'Memorice_completo_or_btn_0' [D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.runs/synth_1/.Xil/Vivado-14904-martin/realtime/Memorice_completo_or_btn_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'Memorice_completo_or_reset_0' declared at 'D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.runs/synth_1/.Xil/Vivado-14904-martin/realtime/Memorice_completo_or_reset_0_stub.vhdl:5' bound to instance 'or_reset' of component 'Memorice_completo_or_reset_0' [D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.srcs/sources_1/bd/Memorice_completo/synth/Memorice_completo.vhd:249]
+INFO: [Synth 8-638] synthesizing module 'Memorice_completo_or_reset_0' [D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.runs/synth_1/.Xil/Vivado-14904-martin/realtime/Memorice_completo_or_reset_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'Memorice_completo_rgb_driver_sin_axi_0_0' declared at 'D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.runs/synth_1/.Xil/Vivado-14904-martin/realtime/Memorice_completo_rgb_driver_sin_axi_0_0_stub.vhdl:5' bound to instance 'rgb_driver_sin_axi_0' of component 'Memorice_completo_rgb_driver_sin_axi_0_0' [D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.srcs/sources_1/bd/Memorice_completo/synth/Memorice_completo.vhd:255]
+INFO: [Synth 8-638] synthesizing module 'Memorice_completo_rgb_driver_sin_axi_0_0' [D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.runs/synth_1/.Xil/Vivado-14904-martin/realtime/Memorice_completo_rgb_driver_sin_axi_0_0_stub.vhdl:18]
+INFO: [Synth 8-3491] module 'Memorice_completo_slice_btn0_0' declared at 'd:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.srcs/sources_1/bd/Memorice_completo/ip/Memorice_completo_slice_btn0_0/synth/Memorice_completo_slice_btn0_0.v:57' bound to instance 'slice_btn0' of component 'Memorice_completo_slice_btn0_0' [D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.srcs/sources_1/bd/Memorice_completo/synth/Memorice_completo.vhd:265]
+INFO: [Synth 8-6157] synthesizing module 'Memorice_completo_slice_btn0_0' [d:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.srcs/sources_1/bd/Memorice_completo/ip/Memorice_completo_slice_btn0_0/synth/Memorice_completo_slice_btn0_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_2_xlslice' [d:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.srcs/sources_1/bd/Memorice_completo/ipshared/11d0/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 4 - type: integer 
+	Parameter DIN_FROM bound to: 0 - type: integer 
+	Parameter DIN_TO bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_2_xlslice' (1#1) [d:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.srcs/sources_1/bd/Memorice_completo/ipshared/11d0/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'Memorice_completo_slice_btn0_0' (2#1) [d:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.srcs/sources_1/bd/Memorice_completo/ip/Memorice_completo_slice_btn0_0/synth/Memorice_completo_slice_btn0_0.v:57]
+INFO: [Synth 8-3491] module 'Memorice_completo_vio_0_0' declared at 'D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.runs/synth_1/.Xil/Vivado-14904-martin/realtime/Memorice_completo_vio_0_0_stub.vhdl:5' bound to instance 'vio_0' of component 'Memorice_completo_vio_0_0' [D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.srcs/sources_1/bd/Memorice_completo/synth/Memorice_completo.vhd:270]
+INFO: [Synth 8-638] synthesizing module 'Memorice_completo_vio_0_0' [D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.runs/synth_1/.Xil/Vivado-14904-martin/realtime/Memorice_completo_vio_0_0_stub.vhdl:16]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'slice_btn0'. This will prevent further optimization [D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.srcs/sources_1/bd/Memorice_completo/synth/Memorice_completo.vhd:265]
+INFO: [Synth 8-256] done synthesizing module 'Memorice_completo' (3#1) [D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.srcs/sources_1/bd/Memorice_completo/synth/Memorice_completo.vhd:28]
+INFO: [Synth 8-256] done synthesizing module 'Memorice_completo_wrapper' (4#1) [D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.srcs/sources_1/bd/Memorice_completo/hdl/Memorice_completo_wrapper.vhd:24]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1148.887 ; gain = 87.984
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 1148.887 ; gain = 87.984
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 1148.887 ; gain = 87.984
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1148.887 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.srcs/sources_1/bd/Memorice_completo/ip/Memorice_completo_Player_game_manager_0_0/Memorice_completo_Player_game_manager_0_0/Memorice_completo_Player_game_manager_0_0_in_context.xdc] for cell 'Memorice_completo_i/Player_game_manager_0'
+Finished Parsing XDC File [d:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.srcs/sources_1/bd/Memorice_completo/ip/Memorice_completo_Player_game_manager_0_0/Memorice_completo_Player_game_manager_0_0/Memorice_completo_Player_game_manager_0_0_in_context.xdc] for cell 'Memorice_completo_i/Player_game_manager_0'
+Parsing XDC File [d:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.srcs/sources_1/bd/Memorice_completo/ip/Memorice_completo_Sequence_display_0_0/Memorice_completo_Sequence_display_0_0/Memorice_completo_Sequence_display_0_0_in_context.xdc] for cell 'Memorice_completo_i/Sequence_display_0'
+Finished Parsing XDC File [d:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.srcs/sources_1/bd/Memorice_completo/ip/Memorice_completo_Sequence_display_0_0/Memorice_completo_Sequence_display_0_0/Memorice_completo_Sequence_display_0_0_in_context.xdc] for cell 'Memorice_completo_i/Sequence_display_0'
+Parsing XDC File [d:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.srcs/sources_1/bd/Memorice_completo/ip/Memorice_completo_debouncer_0_0/Memorice_completo_debouncer_0_0/Memorice_completo_debouncer_0_0_in_context.xdc] for cell 'Memorice_completo_i/debouncer_0'
+Finished Parsing XDC File [d:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.srcs/sources_1/bd/Memorice_completo/ip/Memorice_completo_debouncer_0_0/Memorice_completo_debouncer_0_0/Memorice_completo_debouncer_0_0_in_context.xdc] for cell 'Memorice_completo_i/debouncer_0'
+Parsing XDC File [d:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.srcs/sources_1/bd/Memorice_completo/ip/Memorice_completo_SM_0_0/Memorice_completo_SM_0_0/Memorice_completo_SM_0_0_in_context.xdc] for cell 'Memorice_completo_i/SM_0'
+Finished Parsing XDC File [d:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.srcs/sources_1/bd/Memorice_completo/ip/Memorice_completo_SM_0_0/Memorice_completo_SM_0_0/Memorice_completo_SM_0_0_in_context.xdc] for cell 'Memorice_completo_i/SM_0'
+Parsing XDC File [d:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.srcs/sources_1/bd/Memorice_completo/ip/Memorice_completo_RAM_sin_axi_0_0/Memorice_completo_RAM_sin_axi_0_0/Memorice_completo_RAM_sin_axi_0_0_in_context.xdc] for cell 'Memorice_completo_i/RAM_sin_axi_0'
+Finished Parsing XDC File [d:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.srcs/sources_1/bd/Memorice_completo/ip/Memorice_completo_RAM_sin_axi_0_0/Memorice_completo_RAM_sin_axi_0_0/Memorice_completo_RAM_sin_axi_0_0_in_context.xdc] for cell 'Memorice_completo_i/RAM_sin_axi_0'
+Parsing XDC File [d:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.srcs/sources_1/bd/Memorice_completo/ip/Memorice_completo_rgb_driver_sin_axi_0_0/Memorice_completo_rgb_driver_sin_axi_0_0/Memorice_completo_rgb_driver_sin_axi_0_0_in_context.xdc] for cell 'Memorice_completo_i/rgb_driver_sin_axi_0'
+Finished Parsing XDC File [d:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.srcs/sources_1/bd/Memorice_completo/ip/Memorice_completo_rgb_driver_sin_axi_0_0/Memorice_completo_rgb_driver_sin_axi_0_0/Memorice_completo_rgb_driver_sin_axi_0_0_in_context.xdc] for cell 'Memorice_completo_i/rgb_driver_sin_axi_0'
+Parsing XDC File [d:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.srcs/sources_1/bd/Memorice_completo/ip/Memorice_completo_ila_0_0/Memorice_completo_ila_0_0/Memorice_completo_ila_0_0_in_context.xdc] for cell 'Memorice_completo_i/ila_0'
+Finished Parsing XDC File [d:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.srcs/sources_1/bd/Memorice_completo/ip/Memorice_completo_ila_0_0/Memorice_completo_ila_0_0/Memorice_completo_ila_0_0_in_context.xdc] for cell 'Memorice_completo_i/ila_0'
+Parsing XDC File [d:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.srcs/sources_1/bd/Memorice_completo/ip/Memorice_completo_vio_0_0/Memorice_completo_vio_0_0/Memorice_completo_vio_0_0_in_context.xdc] for cell 'Memorice_completo_i/vio_0'
+Finished Parsing XDC File [d:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.srcs/sources_1/bd/Memorice_completo/ip/Memorice_completo_vio_0_0/Memorice_completo_vio_0_0/Memorice_completo_vio_0_0_in_context.xdc] for cell 'Memorice_completo_i/vio_0'
+Parsing XDC File [d:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.srcs/sources_1/bd/Memorice_completo/ip/Memorice_completo_or_btn_0/Memorice_completo_or_btn_0/Memorice_completo_or_btn_0_in_context.xdc] for cell 'Memorice_completo_i/or_btn'
+Finished Parsing XDC File [d:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.srcs/sources_1/bd/Memorice_completo/ip/Memorice_completo_or_btn_0/Memorice_completo_or_btn_0/Memorice_completo_or_btn_0_in_context.xdc] for cell 'Memorice_completo_i/or_btn'
+Parsing XDC File [d:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.srcs/sources_1/bd/Memorice_completo/ip/Memorice_completo_or_reset_0/Memorice_completo_or_reset_0/Memorice_completo_or_reset_0_in_context.xdc] for cell 'Memorice_completo_i/or_reset'
+Finished Parsing XDC File [d:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.srcs/sources_1/bd/Memorice_completo/ip/Memorice_completo_or_reset_0/Memorice_completo_or_reset_0/Memorice_completo_or_reset_0_in_context.xdc] for cell 'Memorice_completo_i/or_reset'
+Parsing XDC File [d:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.srcs/sources_1/bd/Memorice_completo/ip/Memorice_completo_debouncer_reset_0/Memorice_completo_debouncer_reset_0/Memorice_completo_debouncer_reset_0_in_context.xdc] for cell 'Memorice_completo_i/debouncer_reset'
+Finished Parsing XDC File [d:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.srcs/sources_1/bd/Memorice_completo/ip/Memorice_completo_debouncer_reset_0/Memorice_completo_debouncer_reset_0/Memorice_completo_debouncer_reset_0_in_context.xdc] for cell 'Memorice_completo_i/debouncer_reset'
+Parsing XDC File [D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.srcs/constrs_1/imports/Sep_martin_pena/Zybo-Z7-Master.xdc]
+Finished Parsing XDC File [D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.srcs/constrs_1/imports/Sep_martin_pena/Zybo-Z7-Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.srcs/constrs_1/imports/Sep_martin_pena/Zybo-Z7-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Memorice_completo_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Memorice_completo_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1216.555 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 1216.555 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 1216.555 ; gain = 155.652
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 1216.555 ; gain = 155.652
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for Memorice_completo_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Memorice_completo_i/Player_game_manager_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Memorice_completo_i/Sequence_display_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Memorice_completo_i/debouncer_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Memorice_completo_i/SM_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Memorice_completo_i/RAM_sin_axi_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Memorice_completo_i/rgb_driver_sin_axi_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Memorice_completo_i/ila_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Memorice_completo_i/vio_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Memorice_completo_i/or_btn. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Memorice_completo_i/or_reset. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Memorice_completo_i/debouncer_reset. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Memorice_completo_i/slice_btn0. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 1216.555 ; gain = 155.652
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:26 ; elapsed = 00:00:31 . Memory (MB): peak = 1216.555 ; gain = 155.652
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:34 . Memory (MB): peak = 1216.555 ; gain = 155.652
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:46 ; elapsed = 00:00:52 . Memory (MB): peak = 1227.230 ; gain = 166.328
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:46 ; elapsed = 00:00:52 . Memory (MB): peak = 1227.230 ; gain = 166.328
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:46 ; elapsed = 00:00:52 . Memory (MB): peak = 1246.348 ; gain = 185.445
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:53 ; elapsed = 00:00:59 . Memory (MB): peak = 1252.086 ; gain = 191.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:53 ; elapsed = 00:00:59 . Memory (MB): peak = 1252.086 ; gain = 191.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:53 ; elapsed = 00:00:59 . Memory (MB): peak = 1252.086 ; gain = 191.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:53 ; elapsed = 00:00:59 . Memory (MB): peak = 1252.086 ; gain = 191.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:53 ; elapsed = 00:00:59 . Memory (MB): peak = 1252.086 ; gain = 191.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:53 ; elapsed = 00:00:59 . Memory (MB): peak = 1252.086 ; gain = 191.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+------------------------------------------+----------+
+|      |BlackBox name                             |Instances |
++------+------------------------------------------+----------+
+|1     |Memorice_completo_Player_game_manager_0_0 |         1|
+|2     |Memorice_completo_RAM_sin_axi_0_0         |         1|
+|3     |Memorice_completo_SM_0_0                  |         1|
+|4     |Memorice_completo_Sequence_display_0_0    |         1|
+|5     |Memorice_completo_debouncer_0_0           |         1|
+|6     |Memorice_completo_debouncer_reset_0       |         1|
+|7     |Memorice_completo_ila_0_0                 |         1|
+|8     |Memorice_completo_or_btn_0                |         1|
+|9     |Memorice_completo_or_reset_0              |         1|
+|10    |Memorice_completo_rgb_driver_sin_axi_0_0  |         1|
+|11    |Memorice_completo_vio_0_0                 |         1|
++------+------------------------------------------+----------+
+
+Report Cell Usage: 
++------+-----------------------------------------------+------+
+|      |Cell                                           |Count |
++------+-----------------------------------------------+------+
+|1     |Memorice_completo_Player_game_manager_0_0_bbox |     1|
+|2     |Memorice_completo_RAM_sin_axi_0_0_bbox         |     1|
+|3     |Memorice_completo_SM_0_0_bbox                  |     1|
+|4     |Memorice_completo_Sequence_display_0_0_bbox    |     1|
+|5     |Memorice_completo_debouncer_0_0_bbox           |     1|
+|6     |Memorice_completo_debouncer_reset_0_bbox       |     1|
+|7     |Memorice_completo_ila_0_0_bbox                 |     1|
+|8     |Memorice_completo_or_btn_0_bbox                |     1|
+|9     |Memorice_completo_or_reset_0_bbox              |     1|
+|10    |Memorice_completo_rgb_driver_sin_axi_0_0_bbox  |     1|
+|11    |Memorice_completo_vio_0_0_bbox                 |     1|
+|12    |IBUF                                           |     6|
+|13    |OBUF                                           |     7|
++------+-----------------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:53 ; elapsed = 00:00:59 . Memory (MB): peak = 1252.086 ; gain = 191.184
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:36 ; elapsed = 00:00:54 . Memory (MB): peak = 1252.086 ; gain = 123.516
+Synthesis Optimization Complete : Time (s): cpu = 00:00:54 ; elapsed = 00:00:59 . Memory (MB): peak = 1252.086 ; gain = 191.184
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1264.148 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1267.379 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+49 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:10 ; elapsed = 00:01:24 . Memory (MB): peak = 1267.379 ; gain = 206.477
+INFO: [Common 17-1381] The checkpoint 'D:/Sep_martin_pena/proyecto_sep_1/Memorice_completo/Memorice_completo.runs/synth_1/Memorice_completo_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Memorice_completo_wrapper_utilization_synth.rpt -pb Memorice_completo_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Sep 25 19:34:17 2026...
